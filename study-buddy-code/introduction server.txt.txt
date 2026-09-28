@@ -1,0 +1,71 @@
+# SERVER IN PROGRAMMING
+
+## Introduction
+
+A **server** is a computer, program, or system that provides services, resources, or data to other computers or applications over a network. The computers or applications that request these services are called **clients**. The communication between a client and a server is known as the **client-server model**.
+
+In programming and web development, servers play an important role in receiving requests from users, processing those requests, communicating with databases or other services, and sending responses back to the client. For example, when a user opens a website, the browser sends a request to the web server. The server processes the request and sends the required web page back to the browser.
+
+A server can run continuously and handle requests from many clients at the same time. Servers are commonly used for websites, databases, file storage, applications, email, authentication, and many other services.
+
+## Client-Server Model
+
+The client-server model is a basic architecture used in network and web applications. It consists mainly of two components:
+
+1. **Client** – The client sends requests to the server. A web browser such as Chrome, Firefox, or Edge can act as a client.
+2. **Server** – The server receives the request, processes it, and sends a response to the client.
+
+For example, when a user logs into a website:
+
+**Client → Login Request → Server → Database → Server → Response → Client**
+
+The client sends the username and password to the server. The server processes the information and may check the details stored in a database. After verification, the server sends a response such as successful login or invalid credentials.
+
+## Types of Servers
+
+There are different types of servers depending on the services they provide.
+
+### 1. Web Server
+
+A **web server** stores and delivers web pages and other web resources to clients. It receives HTTP or HTTPS requests from browsers and returns the requested content.
+
+Examples include Apache, Nginx, and Microsoft IIS.
+
+### 2. Application Server
+
+An **application server** runs the business logic of an application. It processes user requests, performs calculations, validates information, and communicates with databases or other services.
+
+For example, in an online shopping application, the application server can process orders, calculate prices, and manage user accounts.
+
+### 3. Database Server
+
+A **database server** manages and provides access to stored data. Applications communicate with database servers to create, read, update, and delete information.
+
+Examples include MySQL, PostgreSQL, MongoDB, and Microsoft SQL Server.
+
+### 4. File Server
+
+A **file server** is used to store and manage files. Multiple users or applications can access files from a central server through a network.
+
+### 5. Mail Server
+
+A **mail server** handles the sending, receiving, and storage of email messages. It communicates with email clients and other mail servers using suitable email protocols.
+
+## Server in Web Programming
+
+In web programming, a server is responsible for handling requests sent by the browser. A typical web application contains a frontend, backend, and database.
+
+The **frontend** is the part of the application that the user sees and interacts with. The **backend** runs on a server and contains the application's logic. The database stores application data.
+
+For example, consider a student management application. When a student enters their login details, the browser sends the information to the server. The server receives the request and checks the student's details in the database. The server then sends the result back to the browser.
+
+A server can be created using different programming languages and technologies. In JavaScript development, **Node.js** is commonly used to create servers. Frameworks such as **Express.js** make it easier to create routes and handle HTTP requests.
+
+## How a Server Works
+
+The basic working process of a server can be explained in the following steps:
+
+1. The client sends a request.
+2. The server receives the request.
+3. The server identifies the requested resource or operation.
+4. The server executes the required program logic
